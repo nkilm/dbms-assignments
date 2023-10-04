@@ -1,0 +1,2 @@
+
+select train_no, train_name, from_station_name, to_station_name,arrival, destination,distance from train natural join route_info;
